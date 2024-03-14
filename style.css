@@ -2,8 +2,26 @@ body {
   font-family: 'Arimo', sans-serif;
 }
 
+body {
+  font-family: 'Arimo', sans-serif;
+}
+
 .navbar-nav .nav-item {
   margin: 0 45px;
+}
+
+.navbar-nav .nav-item {
+  margin: 0 45px;
+}
+
+.navbar-nav .nav-link {
+  color: rgb(0, 0, 0);
+  font-family: 'Arimo', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
 }
 
 .navbar-nav .nav-link {
@@ -19,6 +37,24 @@ body {
 .navbar-loupe {
   position: absolute;
   right: 146px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+}
+
+.navbar-loupe {
+  position: absolute;
+  right: 146px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+}
+
+.navbar-cart {
+  position: absolute;
+  right: 101px;
   top: 50%;
   transform: translateY(-50%);
   width: 24px;
@@ -41,6 +77,21 @@ body {
   box-shadow: none;
 }
 
+.btn,
+.navbar-toggler {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.btn:focus,
+.navbar-toggler:focus,
+.btn:active,
+.navbar-toggler:active {
+  outline: none;
+  box-shadow: none;
+}
+
 .btn:focus,
 .navbar-toggler:focus,
 .btn:active,
@@ -50,17 +101,36 @@ body {
 }
 
 @media (max-width: 992px) {
+
   .navbar-loupe,
   .navbar-cart {
     position: absolute;
     top: 16px;
     transform: none;
   }
-  
-  .navbar-loupe {
-    right: 73px;
+
+  @media (max-width: 992px) {
+
+    .navbar-loupe,
+    .navbar-cart {
+      position: absolute;
+      top: 16px;
+      transform: none;
+    }
+
+    .navbar-loupe {
+      right: 73px;
+    }
+
+    .navbar-loupe {
+      right: 73px;
+    }
+
+    .navbar-cart {
+      right: 28px;
+    }
   }
-  
+
   .navbar-cart {
     right: 28px;
   }
@@ -74,78 +144,167 @@ body {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .navbar-nav .nav-item {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.first-block {
+  background: rgb(241, 239, 228);
+}
+
 .first-block {
   background: rgb(241, 239, 228);
 }
 
 
 .first-block {
-padding-top: 44px;
-display: flex;
-flex-direction: column;
-align-items: center;
+  padding-top: 44px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.first-block {
+  padding-top: 44px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .rectangle {
-width: 1296px;
-height: 550px;
-border-radius: 56px;
-background: rgb(200, 221, 237);
-padding-top: 56px;
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-position: relative;
+  width: 1296px;
+  height: 550px;
+  border-radius: 56px;
+  background: rgb(200, 221, 237);
+  padding-top: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.rectangle {
+  width: 1296px;
+  height: 550px;
+  border-radius: 56px;
+  background: rgb(200, 221, 237);
+  padding-top: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
 }
 
 .rectangle-text {
-color: rgb(0, 0, 0);
-font-family: Arimo;
-font-size: 68px;
-font-weight: 700;
-line-height: 88px;
-letter-spacing: 0%;
-text-align: left;
-width: 500px;
-padding-left: 40px;
+  color: rgb(0, 0, 0);
+  font-family: Arimo;
+  font-size: 68px;
+  font-weight: 700;
+  line-height: 88px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 500px;
+  padding-left: 40px;
 }
+
 .rectangle-text-description {
-color: rgb(0, 0, 0);
-font-family: Arimo;
-font-size: 20px;
-font-weight: 400;
-line-height: 27px;
-letter-spacing: 0px;
-text-align: left;
-padding-left: 40px;
-width: 565px; 
-margin-top: 28px;
+  color: rgb(0, 0, 0);
+  font-family: Arimo;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding-left: 40px;
+  width: 565px;
+  margin-top: 28px;
+}
+
+.rectangle-text {
+  color: rgb(0, 0, 0);
+  font-family: Arimo;
+  font-size: 68px;
+  font-weight: 700;
+  line-height: 88px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 500px;
+  padding-left: 40px;
+}
+
+.rectangle-text-description {
+  color: rgb(0, 0, 0);
+  font-family: Arimo;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding-left: 40px;
+  width: 565px;
+  margin-top: 28px;
 }
 
 
 .buy-button {
-font-family: 'Arimo', sans-serif;
-font-size: 20px;
-font-weight: 700;
-color: rgb(25, 24, 22);
-background-color: white;
-border: none;
-border-radius: 12px;
-padding: 10px 20px;
-margin-top: 20px;
-cursor: pointer;
-transition: background-color 0.3s ease;
-line-height: 26px;
-letter-spacing: 0%;
-text-align: center;
-margin-left: 40px;
-width: 134px;
-height: 64px;
-margin-bottom: 48px;
+  font-family: 'Arimo', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(25, 24, 22);
+  background-color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-left: 40px;
+  width: 134px;
+  height: 64px;
+  margin-bottom: 48px;
+}
+
+.buy-button {
+  font-family: 'Arimo', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(25, 24, 22);
+  background-color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-left: 40px;
+  width: 134px;
+  height: 64px;
+  margin-bottom: 48px;
 }
 
 .buy-button:hover {
-background-color: #f2f2f2;
+  background-color: #f2f2f2;
+}
+
+.buy-button:hover {
+  background-color: #f2f2f2;
+}
+
+.rectangle-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 648px;
+  height: 550px;
 }
 
 .rectangle-image {
@@ -159,21 +318,49 @@ background-color: #f2f2f2;
 @media screen and (max-width: 1050px) {
   .rectangle-image {
     width: auto;
-    height: 80%; 
+    height: 80%;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .rectangle-image {
+    width: auto;
+    height: 80%;
   }
 }
 
 @media screen and (max-width: 910px) {
   .rectangle-image {
-    width: auto; 
-    height: 60%; 
+    width: auto;
+    height: 60%;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .rectangle-image {
+    width: auto;
+    height: 60%;
   }
 }
 
 @media screen and (max-width: 815px) {
   .rectangle-image {
-    width: auto; 
-    height: 50%; 
+    width: auto;
+    height: 50%;
+  }
+}
+
+@media screen and (max-width: 815px) {
+  .rectangle-image {
+    width: auto;
+    height: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .rectangle {
+    width: 343px;
+    height: 677px;
   }
 }
 
@@ -197,7 +384,7 @@ background-color: #f2f2f2;
     width: 340px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 7px; 
+    padding-top: 7px;
   }
 }
 
@@ -230,16 +417,18 @@ background-color: #f2f2f2;
   }
 
   .rectangle-text-description {
-    padding-left: 24px; 
+    padding-left: 24px;
     margin-top: 20px;
     margin-bottom: 10px;
   }
+
   .buy-button {
     width: 295px;
     height: 56px;
-    margin-left: auto; 
-    margin-right: auto; 
+    margin-left: auto;
+    margin-right: auto;
   }
+
   .rectangle-image {
     width: 343px;
     height: 289px;
@@ -249,17 +438,24 @@ background-color: #f2f2f2;
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .rectangle {
     /* Установите подходящие размеры для блоков */
-    width: 100%; /* Например, можно использовать 100% ширины экрана */
-    height: auto; /* Высота может быть автоматической */
-    margin: 20px auto; /* Отступы сверху и снизу, выравнивание по центру */
-    padding: 20px; /* Подходящие внутренние отступы */
-    border-radius: 20px; /* Скругление углов */
+    width: 100%;
+    /* Например, можно использовать 100% ширины экрана */
+    height: auto;
+    /* Высота может быть автоматической */
+    margin: 20px auto;
+    /* Отступы сверху и снизу, выравнивание по центру */
+    padding: 20px;
+    /* Подходящие внутренние отступы */
+    border-radius: 20px;
+    /* Скругление углов */
   }
 
   .rectangle-image {
     /* Адаптируйте изображения внутри блоков */
-    width: 50%; /* Изображение должно занимать всю доступную ширину блока */
-    height: auto; /* Высота должна быть автоматической, чтобы сохранить пропорции */
+    width: 50%;
+    /* Изображение должно занимать всю доступную ширину блока */
+    height: auto;
+    /* Высота должна быть автоматической, чтобы сохранить пропорции */
   }
 }
 
@@ -276,7 +472,8 @@ background-color: #f2f2f2;
   flex-direction: column;
   align-items: flex-start;
   position: relative;
-  margin-top: 44px; /* Отступ сверху */
+  margin-top: 44px;
+  /* Отступ сверху */
   border-radius: 56px;
 }
 
@@ -290,6 +487,7 @@ background-color: #f2f2f2;
 }
 
 @media screen and (max-width: 768px) {
+
   .second-rectangle,
   .third-rectangle {
     width: 343px;
@@ -302,7 +500,8 @@ background-color: #f2f2f2;
 
   .second-rectangle {
     margin-bottom: -26px;
-    margin-right: 0; /* Обнуляем правый отступ для мобильных устройств */
+    margin-right: 0;
+    /* Обнуляем правый отступ для мобильных устройств */
   }
 
   .rectangle-container {
@@ -337,23 +536,36 @@ background-color: #f2f2f2;
 }
 
 .second-rectangle-button {
-  border: none; /* Удаление обводки */
+  border: none;
+  /* Удаление обводки */
   border-radius: 12px;
   background: rgb(31, 34, 46);
   width: 160px;
   height: 64px;
-  color: white; /* Цвет текста в кнопке */
-  font-family: 'Arimo', sans-serif; /* Шрифт кнопки */
-  font-size: 20px; /* Размер шрифта кнопки */
-  font-weight: 700; /* Вес шрифта кнопки */
-  line-height: 26px; /* Высота строки кнопки */
-  letter-spacing: 0%; /* Разреженность букв в кнопке */
-  text-align: center; /* Выравнивание текста по центру */
-  margin-top: 20px; /* Отступ сверху */
-  padding: 10px 20px; /* Внутренний отступ */
-  cursor: pointer; /* Курсор в виде руки при наведении */
-  transition: background-color 0.3s ease; /* Плавное изменение цвета фона при наведении */
-  margin-left: 40px; /* Отступ от левого края */
+  color: white;
+  /* Цвет текста в кнопке */
+  font-family: 'Arimo', sans-serif;
+  /* Шрифт кнопки */
+  font-size: 20px;
+  /* Размер шрифта кнопки */
+  font-weight: 700;
+  /* Вес шрифта кнопки */
+  line-height: 26px;
+  /* Высота строки кнопки */
+  letter-spacing: 0%;
+  /* Разреженность букв в кнопке */
+  text-align: center;
+  /* Выравнивание текста по центру */
+  margin-top: 20px;
+  /* Отступ сверху */
+  padding: 10px 20px;
+  /* Внутренний отступ */
+  cursor: pointer;
+  /* Курсор в виде руки при наведении */
+  transition: background-color 0.3s ease;
+  /* Плавное изменение цвета фона при наведении */
+  margin-left: 40px;
+  /* Отступ от левого края */
 }
 
 @media screen and (max-width: 768px) {
@@ -366,8 +578,10 @@ background-color: #f2f2f2;
     letter-spacing: 0%;
     text-align: left;
     width: 295px;
-    margin-top: 20px; /* Отступ от верха 20px */
-    padding-left: 24px; /* Добавлен отступ слева */
+    margin-top: 20px;
+    /* Отступ от верха 20px */
+    padding-left: 24px;
+    /* Добавлен отступ слева */
   }
 }
 
@@ -382,18 +596,25 @@ background-color: #f2f2f2;
     letter-spacing: 0%;
     text-align: left;
     width: 295px;
-    padding-left: 24px; /* Добавлен отступ слева */
-    margin-top: 10px; /* Добавлен отступ сверху */
+    padding-left: 24px;
+    /* Добавлен отступ слева */
+    margin-top: 10px;
+    /* Добавлен отступ сверху */
   }
 }
 
 @media screen and (max-width: 768px) {
   .second-rectangle-button {
-    width: 295px;  /* Установлена ширина 295px */
-    height: 56px;  /* Установлена высота 56px */
-    margin-left: auto;  /* Выравнивание по горизонтали */
-    margin-right: auto; /* Выравнивание по горизонтали */
-    margin-bottom: 24px; /* Отступ от низа блока 24px */
+    width: 295px;
+    /* Установлена ширина 295px */
+    height: 56px;
+    /* Установлена высота 56px */
+    margin-left: auto;
+    /* Выравнивание по горизонтали */
+    margin-right: auto;
+    /* Выравнивание по горизонтали */
+    margin-bottom: 24px;
+    /* Отступ от низа блока 24px */
   }
 }
 
@@ -419,27 +640,41 @@ background-color: #f2f2f2;
   letter-spacing: 0%;
   text-align: left;
   width: 494px;
-  padding-left: 40px; /* Добавлен отступ слева */
+  padding-left: 40px;
+  /* Добавлен отступ слева */
 }
 
 .third-rectangle-button {
-  border: none; /* Удаление обводки */
+  border: none;
+  /* Удаление обводки */
   border-radius: 12px;
   background: rgb(31, 34, 46);
   width: 175px;
   height: 64px;
-  color: white; /* Цвет текста в кнопке */
-  font-family: 'Arimo', sans-serif; /* Шрифт кнопки */
-  font-size: 20px; /* Размер шрифта кнопки */
-  font-weight: 700; /* Вес шрифта кнопки */
-  line-height: 26px; /* Высота строки кнопки */
-  letter-spacing: 0%; /* Разреженность букв в кнопке */
-  text-align: center; /* Выравнивание текста по центру */
-  margin-top: 20px; /* Отступ сверху */
-  padding: 10px 20px; /* Внутренний отступ */
-  cursor: pointer; /* Курсор в виде руки при наведении */
-  transition: background-color 0.3s ease; /* Плавное изменение цвета фона при наведении */
-  margin-left: 40px; /* Отступ от левого края */
+  color: white;
+  /* Цвет текста в кнопке */
+  font-family: 'Arimo', sans-serif;
+  /* Шрифт кнопки */
+  font-size: 20px;
+  /* Размер шрифта кнопки */
+  font-weight: 700;
+  /* Вес шрифта кнопки */
+  line-height: 26px;
+  /* Высота строки кнопки */
+  letter-spacing: 0%;
+  /* Разреженность букв в кнопке */
+  text-align: center;
+  /* Выравнивание текста по центру */
+  margin-top: 20px;
+  /* Отступ сверху */
+  padding: 10px 20px;
+  /* Внутренний отступ */
+  cursor: pointer;
+  /* Курсор в виде руки при наведении */
+  transition: background-color 0.3s ease;
+  /* Плавное изменение цвета фона при наведении */
+  margin-left: 40px;
+  /* Отступ от левого края */
 }
 
 @media screen and (max-width: 768px) {
@@ -452,8 +687,10 @@ background-color: #f2f2f2;
     letter-spacing: 0%;
     text-align: left;
     width: 295px;
-    margin-top: 20px; /* Отступ от верха 20px */
-    padding-left: 24px; /* Добавлен отступ слева */
+    margin-top: 20px;
+    /* Отступ от верха 20px */
+    padding-left: 24px;
+    /* Добавлен отступ слева */
   }
 }
 
@@ -467,21 +704,25 @@ background-color: #f2f2f2;
     letter-spacing: 0%;
     text-align: left;
     width: 295px;
-    padding-left: 24px; /* Добавлен отступ слева */
-    margin-top: 10px; /* Добавлен отступ сверху */
+    padding-left: 24px;
+    /* Добавлен отступ слева */
+    margin-top: 10px;
+    /* Добавлен отступ сверху */
   }
 }
 
 @media screen and (max-width: 768px) {
   .third-rectangle-button {
     width: 295px;
-    height: 56px; 
-    margin-left: auto; 
+    height: 56px;
+    margin-left: auto;
     margin-right: auto;
-    margin-bottom: 24px; 
+    margin-bottom: 24px;
   }
 }
+
 @media screen and (min-width: 769px) and (max-width: 992px) {
+
   .second-rectangle,
   .third-rectangle {
     width: 343px;
@@ -494,11 +735,13 @@ background-color: #f2f2f2;
 
   .second-rectangle {
     margin-bottom: -26px;
-    margin-right: 32px; /* Добавляем правый отступ для планшетных устройств */
+    margin-right: 32px;
+    /* Добавляем правый отступ для планшетных устройств */
   }
 
   .rectangle-container {
-    flex-direction: row; /* Прямоугольники располагаются в ряд */
+    flex-direction: row;
+    /* Прямоугольники располагаются в ряд */
   }
 
   .second-rectangle-text,
@@ -543,7 +786,7 @@ background-color: #f2f2f2;
   line-height: 70px;
   letter-spacing: 0%;
   text-align: left;
-  margin-left: 110px; 
+  margin-left: 110px;
 }
 
 @media screen and (max-width: 768px) {
@@ -566,15 +809,107 @@ background-color: #f2f2f2;
   background: rgb(255, 255, 255);
   border-radius: 50%;
   position: absolute;
-  right: 140px;
-  bottom: 0;
+  right: 140px; 
+  top: 90px; /* установил отступ сверху, как у заголовка блока */
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 
 .circle-image {
   width: 8.5px;
   height: 15px;
 }
 
+.realme-card {
+  margin-top: 64px;
+  margin-left: 55px;
+}
+
+.realme-card .realme-card-box {
+  width: 306px;
+  height: 424px;
+  border-radius: 32px;
+  background: rgb(255, 255, 255);
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.realme-text {
+  color: rgb(0, 0, 0);
+  font-family: Arimo;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 200px;
+  margin-bottom: 0;
+  margin-top: 10px;
+  padding-left: 24px;
+}
+
+.realme-img {
+  width: 258px;
+  height: 202px;
+  align-self: center;
+  margin-top: 24px;
+}
+
+.realme-price-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 28px 0 24px;
+  margin-top: 16px; /* Отступ сверху */
+}
+
+.realme-price {
+  color: rgb(0, 0, 0);
+  font-family: Arimo;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.realme-price-value {
+  color: rgb(0, 0, 0);
+  font-family: Arimo;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.realme-buy-button {
+color: rgb(255, 255, 255);
+font-family: Arimo;
+font-size: 14px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: center;
+border-radius: 8px;
+background: rgb(31, 34, 46);
+width: 258px;
+height: 32px;
+outline: none;
+border: none;
+box-shadow: none;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .realme-card {
+    margin-left: 16px;
+  }
+}
