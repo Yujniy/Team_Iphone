@@ -53,7 +53,7 @@ body {
   .navbar-loupe,
   .navbar-cart {
     position: absolute;
-    top: 16px; /* Пример фиксированного расстояния от верха */
+    top: 16px;
     transform: none;
   }
   
@@ -107,7 +107,7 @@ line-height: 88px;
 letter-spacing: 0%;
 text-align: left;
 width: 500px;
-padding-left: 40px; /* Добавлен отступ слева */
+padding-left: 40px;
 }
 .rectangle-text-description {
 color: rgb(0, 0, 0);
@@ -117,9 +117,9 @@ font-weight: 400;
 line-height: 27px;
 letter-spacing: 0px;
 text-align: left;
-padding-left: 40px; /* Добавлен отступ слева */
-width: 565px; /* Установлена ширина */
-margin-top: 28px; /* Добавлен отступ сверху */
+padding-left: 40px;
+width: 565px; 
+margin-top: 28px;
 }
 
 
@@ -158,22 +158,22 @@ background-color: #f2f2f2;
 
 @media screen and (max-width: 1050px) {
   .rectangle-image {
-    width: auto; /* Ширина будет автоматически рассчитана на основе высоты, чтобы сохранить пропорции изображения */
-    height: 80%; /* Процент может быть любым, в зависимости от того, насколько сильно вы хотите уменьшить изображение */
+    width: auto;
+    height: 80%; 
   }
 }
 
 @media screen and (max-width: 910px) {
   .rectangle-image {
-    width: auto; /* Ширина будет автоматически рассчитана на основе высоты, чтобы сохранить пропорции изображения */
-    height: 60%; /* Процент может быть любым, в зависимости от того, насколько сильно вы хотите уменьшить изображение */
+    width: auto; 
+    height: 60%; 
   }
 }
 
 @media screen and (max-width: 815px) {
   .rectangle-image {
-    width: auto; /* Ширина будет автоматически рассчитана на основе высоты, чтобы сохранить пропорции изображения */
-    height: 50%; /* Процент может быть любым, в зависимости от того, насколько сильно вы хотите уменьшить изображение */
+    width: auto; 
+    height: 50%; 
   }
 }
 
@@ -197,7 +197,7 @@ background-color: #f2f2f2;
     width: 340px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 7px; /* Примерный отступ */
+    padding-top: 7px; 
   }
 }
 
@@ -226,19 +226,19 @@ background-color: #f2f2f2;
 
 @media screen and (max-width: 768px) {
   .rectangle-text {
-    padding-left: 24px; /* Добавлен отступ слева 24px */
+    padding-left: 24px;
   }
 
   .rectangle-text-description {
-    padding-left: 24px; /* Добавлен отступ слева 24px */
-    margin-top: 20px; /* Установлена величина отступа между заголовком и описанием */
-    margin-bottom: 10px; /* Установлена величина отступа между описанием и кнопкой */
+    padding-left: 24px; 
+    margin-top: 20px;
+    margin-bottom: 10px;
   }
   .buy-button {
-    width: 295px;  /* Установлена ширина 295px */
-    height: 56px;  /* Установлена высота 56px */
-    margin-left: auto;  /* Выравнивание по горизонтали */
-    margin-right: auto; /* Выравнивание по горизонтали */
+    width: 295px;
+    height: 56px;
+    margin-left: auto; 
+    margin-right: auto; 
   }
   .rectangle-image {
     width: 343px;
@@ -474,11 +474,11 @@ background-color: #f2f2f2;
 
 @media screen and (max-width: 768px) {
   .third-rectangle-button {
-    width: 295px;  /* Установлена ширина 295px */
-    height: 56px;  /* Установлена высота 56px */
-    margin-left: auto;  /* Выравнивание по горизонтали */
-    margin-right: auto; /* Выравнивание по горизонтали */
-    margin-bottom: 24px; /* Отступ от низа блока 24px */
+    width: 295px;
+    height: 56px; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-bottom: 24px; 
   }
 }
 @media screen and (min-width: 769px) and (max-width: 992px) {
@@ -528,3 +528,53 @@ background-color: #f2f2f2;
     margin-bottom: 24px;
   }
 }
+
+.popular-products {
+  background: rgb(241, 239, 228);
+  padding-top: 70px;
+  position: relative;
+}
+
+.popular-products-title {
+  color: rgb(25, 24, 22);
+  font-family: Arimo;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-left: 110px; 
+}
+
+@media screen and (max-width: 768px) {
+  .popular-products-title {
+    color: rgb(25, 24, 22);
+    font-family: Arimo;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 343px;
+    margin-left: 24px;
+  }
+}
+
+.circle {
+  width: 48px;
+  height: 48px;
+  background: rgb(255, 255, 255);
+  border-radius: 50%;
+  position: absolute;
+  right: 140px;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-image {
+  width: 8.5px;
+  height: 15px;
+}
+
